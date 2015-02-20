@@ -32,7 +32,7 @@ http://www.templatemo.com/preview/templatemo_402_genius
     <script src="{% static 'js/jquery-1.10.2.min.js' %}"></script>
     <script src="{% static 'js/modernizr.js' %}"></script>
     <!--[if lt IE 8]>
-	<div style=' clear: both; text-align:center; position: relative;'>
+    <div style=' clear: both; text-align:center; position: relative;'>
             <a href="http://www.microsoft.com/windows/internet-explorer/default.aspx?ocid=ie6_countdown_bannercode"><img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" alt="" /></a>
         </div>
     <![endif]-->
@@ -44,17 +44,6 @@ http://www.templatemo.com/preview/templatemo_402_genius
     <div class="overlay-bg"></div>
 
     
-    <div class="container language-select visible-md visible-lg">
-        <div class="row">
-            <div class="col-md-12">
-                <select name="cat2" id="cat2" class="postform">
-                    <option value="0">-- Language Selection --</option>
-                    <option class="level-0" value="1">English</option>
-                    <option class="level-0" value="2">Myanmar</option>
-                </select>
-            </div> <!-- /.col-md-12 -->
-        </div> <!-- /.row -->
-    </div> <!-- /.language-select -->
 
     <!-- This one in here is responsive menu for tablet and mobiles -->
     <div class="responsive-navigation visible-sm visible-xs">
@@ -405,11 +394,9 @@ http://www.templatemo.com/preview/templatemo_402_genius
             zoom: 15,
             center: new google.maps.LatLng(40.188282, 44.517750)
           };
-
           var map = new google.maps.Map(document.getElementById('map-canvas'),
               mapOptions);
         }
-
         function loadScript() {
           var script = document.createElement('script');
           script.type = 'text/javascript';
@@ -417,7 +404,6 @@ http://www.templatemo.com/preview/templatemo_402_genius
               'callback=initialize';
           document.body.appendChild(script);
         }
-
     </script>
  
 </body>

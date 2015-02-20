@@ -237,7 +237,6 @@ img#popup_img.img-responsive{
 
 p{
 	color: #000;
-	text-align: justify;
 }
 .fa-remove:before, .fa-close:before, .fa-times:before {
 	content: "\f00d";

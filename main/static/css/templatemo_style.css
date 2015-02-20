@@ -58,7 +58,7 @@ select::-ms-expand { display: none; }
 .portfolio-item { overflow: hidden; margin-left: auto; margin-right: auto; margin-bottom: 30px; position: relative; border: 3px solid rgba(0, 0, 0, 0.4); width: 200px; height: 200px; }
 .portfolio-item img { height: 100%; overflow: hidden; }
 .portfolio-item .overlay { background-color: rgba(0, 0, 0, 0.5); position: absolute; top: 0; left: 0; width: 100%; height: 100%; opacity: 0; visibility: hidden; -webkit-transition: all 0.2s ease-in-out; -moz-transition: all 0.2s ease-in-out; -ms-transition: all 0.2s ease-in-out; -o-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; }
-.portfolio-item .overlay a { position: absolute; width: 40px; height: 40px; background-color: #a71e2b; text-align: center; line-height: 40px; color: white; top: 50%; left: 50%; margin: -20px 0 0 -20px; }
+.portfolio-item .overlay a#not-popup { position: absolute; width: 40px; height: 40px; background-color: #a71e2b; text-align: center; line-height: 40px; color: white; top: 50%; left: 50%; margin: -20px 0 0 -20px; }
 .portfolio-item:hover .overlay { opacity: 1; visibility: visible; }
 
 /*------------------------------------------------------
@@ -93,7 +93,7 @@ select::-ms-expand { display: none; }
 .gallery-thumb { overflow: hidden; margin-top: 30px; position: relative; }
 .gallery-thumb img { width: 100%; height: auto; }
 .gallery-thumb .overlay-g { position: absolute; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); top: 0; left: 0; visibility: hidden; opacity: 0; -webkit-transition: all 0.2s ease-in-out; -moz-transition: all 0.2s ease-in-out; -ms-transition: all 0.2s ease-in-out; -o-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; }
-.gallery-thumb .overlay-g a { position: absolute; width: 40px; height: 40px; background-color: #a71e2b; text-align: center; line-height: 40px; color: white; top: 50%; left: 50%; margin: -20px 0 0 -20px; }
+.gallery-thumb .overlay-g a#not-popup { position: absolute; width: 40px; height: 40px; background-color: #a71e2b; text-align: center; line-height: 40px; color: white; top: 50%; left: 50%; margin: -20px 0 0 -20px; }
 
 .gallery-item:hover .overlay-g { visibility: visible; opacity: 1; }
 
@@ -235,7 +235,11 @@ img#popup_img.img-responsive{
 	margin-bottom: 10px;
 }
 
-p{
+h4.modal-title{
+	color: #000;
+}
+
+ul, p{
 	color: #000;
 	text-align: justify;
 }

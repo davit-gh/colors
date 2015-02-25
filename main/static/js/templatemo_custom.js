@@ -96,7 +96,7 @@ jQuery(document).ready(function($){
 	$(".main_menu .show-1").click(function(){
 		$(".bg-image").fadeOut('slow', function(){
 			$(this).css({
-				'background-image' : 'url(static/images/bg-homepage.jpg)',
+				'background-image' : 'url(static/images/Armenia/noravank.png)',
 			}).fadeIn('slow');
 		});
 		return false;
@@ -105,7 +105,7 @@ jQuery(document).ready(function($){
 	$(".main_menu .show-2").click(function(){
 		$(".bg-image").fadeOut('slow', function(){
 			$(this).css({
-				'background-image' : 'url(static/images/bg-about.jpg)',
+				'background-image' : 'url(static/images/Armenia/jemma.png)',
 			}).fadeIn('slow');
 		});
 		return false;
@@ -114,7 +114,7 @@ jQuery(document).ready(function($){
 	$(".main_menu .show-3").click(function(){
 		$(".bg-image").fadeOut('slow', function(){
 			$(this).css({
-				'background-image' : 'url(static/images/bg-gallery.jpg)',
+				'background-image' : 'url(static/images/Armenia/kaskad.png)',
 			}).fadeIn('slow');
 		});
 		return false;
@@ -123,7 +123,7 @@ jQuery(document).ready(function($){
 	$(".main_menu .show-4").click(function(){
 		$(".bg-image").fadeOut('slow', function(){
 			$(this).css({
-				'background-image' : 'url(static/images/bg-services.jpg)',
+				'background-image' : 'url(static/images/Armenia/ararat.png)',
 			}).fadeIn('slow');
 		});
 		return false;

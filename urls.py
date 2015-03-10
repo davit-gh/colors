@@ -47,6 +47,7 @@ urlpatterns += patterns('',
     # should be used if you want to customize the homepage's template.
 
     url("^$", "mezzanine.pages.views.page", {"slug": "/"}, name="home"),
+    url(r'^contactus/', view='main.views.contactus', name='contactus'),
 
     # HOMEPAGE FOR A BLOG-ONLY SITE
     # -----------------------------

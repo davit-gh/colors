@@ -32,3 +32,9 @@ class MyFormAdmin(FormAdmin):
 
 admin.site.unregister(Form)
 admin.site.register(Form, MyFormAdmin)
+
+from main.models import Contactus
+class ContactusAdmin(admin.ModelAdmin):
+	list_display=('name','email','title','description', 'message_date')
+
+admin.site.register(Contactus,ContactusAdmin)

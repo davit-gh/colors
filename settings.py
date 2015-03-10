@@ -371,3 +371,6 @@ except ImportError:
     pass
 else:
     set_dynamic_settings(globals())
+
+BLOG_USE_FEATURED_IMAGE = True
+COMMENTS_DISQUS_SHORTNAME = "colorsofarmenia"

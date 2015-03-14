@@ -481,7 +481,7 @@ float the buttons inside it. This prevents collapsing. */
 
 
 body{
-  background-image: url('../images/bg.jpg');
+  background-image: url('../images/bg-services.jpg');
 }
 
 div.intro p{
@@ -490,11 +490,17 @@ div.intro p{
 }
 
   a:link { color:rgb(19, 153, 172); }
-
+  a:visited { color:#c0c0c0; }
+  
+  a:active { color:#f0f0f0; }
 
 a:hover{
   color: rgb(84, 188, 202);
   text-decoration: none;
+}
+
+p.author-category{
+  color: #fff;
 }
 
 h2{
@@ -505,11 +511,14 @@ div.panel-body{
   background-color: rgba(255, 255, 255, 0.82);
 }
 
+h6.post-meta{
+  color: #fff;
+}
 
 h3{
   color: #fff;
 }
 
-a.btn.btn-sm.share-twitter, a.btn.btn-sm.share-facebook{
-    color: #fff;
+a#continue_reading{
+  color: #fff;
 }

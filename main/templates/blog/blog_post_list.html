@@ -122,7 +122,7 @@
                         <div class="intro">{{ blog_post.description_from_content|safe|truncatewords_html:99 }}</div>
                         {% endeditable %}
                         {% endblock %} 
-                        <p class="read-more"><a href="{{ blog_post.get_absolute_url }}" class="btn btn-primary">Continue reading</a>
+                        <p class="read-more"><a id="continue_reading" href="{{ blog_post.get_absolute_url }}" class="btn btn-primary">Continue reading</a>
                         </p>
                     </div>
                 {% endfor %}

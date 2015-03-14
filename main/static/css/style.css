@@ -6,10 +6,10 @@ mark, rp, rt, ruby, summary, time{ display: inline }
 
 /* Global properties
 ---------------------------------------- */
-body { 
-	background:#eee; 
+body {
+	background:#eee;
 	font-family:Arial, Helvetica, sans-serif;
-	font-size:100%; 
+	font-size:100%;
 	line-height:1.1875em;
 	color:#6f787a;
 	}
@@ -29,7 +29,7 @@ html, body { height:100%;}
 	#main .inside {
 		padding:10px 30px 0;
 		}
-	
+
 .menu {
 	padding:0px 0 10px 0px
 }
@@ -42,7 +42,7 @@ html, body { height:100%;}
 	margin-top:90px;
 }
 a {
-	color:#017c9a; 
+	color:#017c9a;
 	outline:none;
 	}
 a:hover{
@@ -52,7 +52,7 @@ strong {
 	color:#393939;
 	}
 em {
-	
+
 	}
 
 ul {
@@ -84,7 +84,7 @@ ol {
 	color:#393939;
 }
 	.fonts ol, .fonts code {
-		font-size:13px; 
+		font-size:13px;
 		font-family:Arial, Helvetica, sans-serif;
 	}
 	.fonts ol {
@@ -99,12 +99,12 @@ ol {
 .alignright { text-align:right;}
 .aligncenter { text-align:center;}
 
-.wrapper { 
+.wrapper {
 	width:100%;
 	overflow:hidden;
 	}
 
-.extra-wrap { 
+.extra-wrap {
 	overflow:hidden;
 	}
 
@@ -131,7 +131,7 @@ ol {
 #content {
 	padding:40px 0 40px 0;
 	}
-	
+
 
 article {
 	padding-bottom:50px;
@@ -156,8 +156,8 @@ pre{
 
 /* Paragraph */
 p {margin-bottom:1.5em;}
-	
-	
+
+
 
 
 /* Footer
@@ -177,7 +177,7 @@ p {margin-bottom:1.5em;}
 /* Forms
 ---------------------------------------- */
 #form1 {
-	
+
 }
 	#form1 input, #subscribe-form input {
 		 border:1px solid #000;
@@ -190,7 +190,7 @@ p {margin-bottom:1.5em;}
 		 line-height:1.2307em;
 		 padding:5px 0 5px 10px;
 		 width:200px;
-		 outline:none;		 
+		 outline:none;
 		 box-shadow:none;
 	}
 	#form1 textarea {
@@ -226,10 +226,10 @@ p {margin-bottom:1.5em;}
 		height:0px;
 		font-size:10px;
 		color:#F00;
-		
-		-webkit-transition: all 0.3s ease-out; 
-		-moz-transition: all 0.3s ease-out; 
-		-o-transition: all 0.3s ease-out; 
+
+		-webkit-transition: all 0.3s ease-out;
+		-moz-transition: all 0.3s ease-out;
+		-o-transition: all 0.3s ease-out;
 		transition: all 0.3s ease-out;
 	}
 	#subscribe-form label.invalid .error {
@@ -264,7 +264,7 @@ p {margin-bottom:1.5em;}
 
 
 /* Form defaults */
-input, select, textarea { 
+input, select, textarea {
 	font-family:Arial, Helvetica, sans-serif;
 	font-size:1em;
 	vertical-align:middle;
@@ -307,7 +307,7 @@ input, select, textarea {
 				background:#000;
 				color:#fff;
 			}
-			
+
 .example {
     color: #CCCCCC;
     display: inline-block;
@@ -315,3 +315,4 @@ input, select, textarea {
     font-style: italic;
     padding: 5px 0;
 }
+

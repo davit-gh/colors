@@ -513,3 +513,7 @@ h3{
 a.btn.btn-sm.share-twitter, a.btn.btn-sm.share-facebook{
     color: #fff;
 }
+
+a#continue_reading{
+    color: #fff;
+}

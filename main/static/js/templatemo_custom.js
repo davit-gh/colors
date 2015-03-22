@@ -159,4 +159,19 @@ jQuery(document).ready(function($){
 	    });
 	});
 
+	$("#cta").click(function(){
+		
+		$("#menu-container .content").hide();
+		$("#menu-container #menu-5").slideDown(600);
+		$("#menu-container .homepage").hide();
+		return false;
+	});
+
+	$("#cta_about").click(function(){
+		
+		$("#menu-container .content").hide();
+		$("#menu-container #menu-5").slideDown(600);
+		$("#menu-container .homepage").hide();
+		return false;
+	});
 });

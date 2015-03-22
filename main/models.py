@@ -65,6 +65,6 @@ class PortfolioItemCategory(Slugged):
 class Contactus(models.Model):
     name = models.CharField(_("Name"), max_length=100, blank=False)
     email = models.EmailField(blank=False)
-    title = models.CharField(_("Title"), max_length=100, blank=False)
-    description = models.TextField(_("Description"), blank=False)
+    title = models.CharField(_("Which featured tour would you like to choose?"), max_length=100, blank=False)
+    description = models.TextField(_("How many people will be with you? Please specify the dates you're going to be in Armenia."), blank=False)
     message_date = models.DateTimeField(auto_now_add=True, blank=True)

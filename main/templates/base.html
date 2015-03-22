@@ -140,6 +140,7 @@ http://www.templatemo.com/preview/templatemo_402_genius
                                     </div> <!-- /.col-md-4 -->
                                 {% endfor %}
                             </div> <!-- /.row -->
+                            <a id="cta" href="#" class="btn btn-primary show-5"><h3>Book a tour</h3></a>
                         </div> <!-- /.homepage -->
 
                         <div id="menu-2" class="content about-us">
@@ -151,7 +152,10 @@ http://www.templatemo.com/preview/templatemo_402_genius
                                     <div class="col-md-7">
                                         <h3 class="widget-title">What is our goal?</h3>
                                         <p style="color: #fff">Our goal is to show you Armenia in a way that will excite you. We cherish you as our dear guest in our <span class="blue">hospitable</span> country. We assist you throughout all your stay in Armenia and welcome you back whenever you wish.</p>
+
+                                        
                                     </div> <!-- /.col-md-7 -->
+                                    <a id="cta_about" href="#" class="btn btn-primary text-center"><h3>Book a tour</h3></a>
                                     <div class="col-md-5">
 
                                     </div> <!-- /.col-md-5 -->
@@ -310,7 +314,7 @@ http://www.templatemo.com/preview/templatemo_402_genius
 
 
                                                   {% for err in vis.errors %}<span style="color:red">{{ err }}</span>{% endfor %}
-                                                    {% render_field vis class="form-control" placeholder=vis.html_name|capfirst required="required" %}
+                                                    {% render_field vis class="form-control" placeholder=vis.label required="required" %}
 
                                             {% endfor %}
 
@@ -349,9 +353,9 @@ http://www.templatemo.com/preview/templatemo_402_genius
                                 <div class="col-md-6">
                                     <div class="social-icons-footer">
                                         <ul>
-                                            <li><a href="https://www.facebook.com/coloursofarmenia" class="fa fa-facebook"></a></li>
-                                            <li><a href="https://twitter.com/colorsofarmenia" class="fa fa-twitter"></a></li>
-                                            <li><a href="https://plus.google.com/110399733780778541778" class="fa fa-google-plus"></a></li>
+                                            <li><a href="https://www.facebook.com/coloursofarmenia" target="_blank" class="fa fa-facebook"></a></li>
+                                            <li><a href="https://twitter.com/colorsofarmenia" target="_blank" class="fa fa-twitter"></a></li>
+                                            <li><a href="https://plus.google.com/110399733780778541778" target="_blank" class="fa fa-google-plus"></a></li>
                                         </ul>
                                     </div>
                                 </div>

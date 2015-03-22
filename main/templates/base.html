@@ -94,7 +94,20 @@ http://www.templatemo.com/preview/templatemo_402_genius
 
 
                     <div id="menu-container">
-
+                        <div class="container">
+            {% nevercache %}
+            {% if messages %}
+            <div class="messages">
+            {% for message in messages %}
+            <div class="alert alert-dismissable alert-{{ message.tags }}" data-alert="alert">
+                <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                {{ message }}
+            </div>
+            {% endfor %}
+            </div>
+            {% endif %}
+            {% endnevercache %}
+        </div>
                         <div id="menu-1" class="homepage">
                             {% get_project_portitems as project_portitems %}
                             <h3>
@@ -304,7 +317,7 @@ http://www.templatemo.com/preview/templatemo_402_genius
                     {% get_contact_form as form %}
                                         <h3 class="widget-title">Send a message</h3>
                                         <p>Feel free to send us a message if you have any questions or enquiries.</p>
-                                        <form id="templatemo-contact" method="post">
+                                        <form id="templatemo-contact" method="post" action="{% url 'contactus' %}">
                                         {% csrf_token %}
                                                 {% for hidden in form.hidden_fields %}
                                                     {{hidden}}

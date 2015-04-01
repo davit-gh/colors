@@ -19,6 +19,8 @@ urlpatterns = i18n_patterns("",
     ("^admin/", include(admin.site.urls)),
 )
 
+from django.http import HttpResponse
+
 urlpatterns += patterns('',
 
     # We don't want to presume how your homepage works, so here are a
@@ -48,7 +50,7 @@ urlpatterns += patterns('',
 
     url("^$", "mezzanine.pages.views.page", {"slug": "/"}, name="home"),
     url(r'^contactus/', view='main.views.contactus', name='contactus'),
-
+    url(r'^robots.txt$', lambda r: HttpResponse("User-agent: *\nDisallow:", mimetype="text/plain")),
     # HOMEPAGE FOR A BLOG-ONLY SITE
     # -----------------------------
     # This pattern points the homepage to the blog post listing page,
@@ -65,7 +67,6 @@ urlpatterns += patterns('',
     # ``mezzanine.urls`` INCLUDES A *CATCH ALL* PATTERN
     # FOR PAGES, SO URLPATTERNS ADDED BELOW ``mezzanine.urls``
     # WILL NEVER BE MATCHED!
-
     # If you'd like more granular control over the patterns in
     # ``mezzanine.urls``, go right ahead and take the parts you want
     # from it, and use them directly below instead of using
